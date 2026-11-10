@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tab Keeper — политика конфиденциальности</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f6f6f7; --fg:#1d1d20; --dim:#5d5d66; --line:#e2e2e6; --acc:#5b5bd6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17171a; --fg:#ececef; --dim:#a0a0aa; --line:#2f2f36; --acc:#8f8ff0; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; } h2 { font-size:19px; margin:28px 0 6px; }
+  .dim { color:var(--dim); } a { color:var(--acc); } li { margin:4px 0; }
+  .en { margin-top:48px; padding-top:28px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности Tab Keeper</h1>
+  <p class="dim">Действует с 10 ноября 2026 г.</p>
+
+  <h2>Коротко</h2>
+  <p>Tab Keeper не собирает и не передаёт ваши данные разработчику или третьим лицам. У расширения нет своих серверов, аналитики и рекламы.</p>
+
+  <h2>Какие данные обрабатываются</h2>
+  <ul>
+    <li><b>Ваши папки, ссылки, вкладки, заметки и настройки</b> — хранятся локально в вашем браузере.</li>
+    <li><b>Синхронизация (по желанию)</b> — если вы её включили, расширение записывает файл синхронизации и его предыдущие версии в ваше облачное хранилище (Google Drive, Яндекс Диск или OneDrive) в отдельную папку «Tab Keeper — синхронизация (не удалять)». Файл можно зашифровать вашим паролем. Пароль хранится только у вас.</li>
+    <li><b>Twitch Drops (по желанию)</b> — чтобы показывать прогресс дропсов, расширение использует вход в Twitch, уже выполненный в вашем браузере, и запрашивает данные только у twitch.tv. Ничего не сохраняется вне вашего браузера.</li>
+    <li><b>Программа-помощник для Windows (по желанию)</b> — работает только на вашем компьютере и только с файлами, которые вы выбрали (например, обои Wallpaper Engine).</li>
+  </ul>
+
+  <h2>Доступ к Google Drive</h2>
+  <p>Расширение запрашивает только доступ <code>drive.file</code>: оно видит и изменяет <b>только файлы, которые создало само</b> (файлы синхронизации). Остальные файлы на вашем Диске ему недоступны. Данные из Google Drive используются только для синхронизации Tab Keeper между вашими устройствами, не передаются никому и не используются для рекламы или обучения моделей ИИ.</p>
+  <p>Использование данных, полученных через API Google, соответствует <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, включая требования Limited Use.</p>
+
+  <h2>Яндекс Диск и OneDrive</h2>
+  <p>Аналогично: расширение работает только со своей папкой в вашем хранилище и использует её только для синхронизации.</p>
+
+  <h2>Как отключить и удалить данные</h2>
+  <ul>
+    <li>Выключите синхронизацию в настройках расширения и нажмите «Выйти» — расширение забудет доступ к облаку.</li>
+    <li>Доступ также можно отозвать в настройках аккаунта: Google — <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, Яндекс — id.yandex.ru, Microsoft — account.live.com/consent/Manage.</li>
+    <li>Файлы синхронизации можно удалить из облака вручную вместе с папкой «Tab Keeper — синхронизация (не удалять)».</li>
+    <li>Удаление расширения удаляет все его локальные данные из браузера.</li>
+  </ul>
+
+  <h2>Изменения</h2>
+  <p>Если политика изменится, новая версия будет опубликована на этой странице с новой датой.</p>
+
+  <div class="en" id="en">
+    <h1>Tab Keeper Privacy Policy</h1>
+    <p class="dim">Effective November 10, 2026.</p>
+    <p>Tab Keeper does not collect or share your data with the developer or any third party. The extension has no servers, analytics or ads.</p>
+    <ul>
+      <li><b>Your folders, links, tabs, notes and settings</b> are stored locally in your browser.</li>
+      <li><b>Sync (optional):</b> when enabled, the extension writes a sync file and its previous versions to your own cloud storage (Google Drive, Yandex Disk or OneDrive) in a folder named "Tab Keeper — синхронизация (не удалять)". The file can be encrypted with your password, which stays with you.</li>
+      <li><b>Twitch Drops (optional):</b> uses the Twitch sign-in already present in your browser and requests data only from twitch.tv. Nothing is stored outside your browser.</li>
+      <li><b>Windows helper (optional):</b> runs only on your computer and only with files you choose.</li>
+    </ul>
+    <p><b>Google Drive:</b> the extension requests only the <code>drive.file</code> scope, so it can see and change <b>only the files it created</b> (sync files). Data from Google Drive is used solely to sync Tab Keeper between your devices; it is not shared, sold, used for advertising or for training AI models. Tab Keeper's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p><b>To stop:</b> turn off sync and press "Sign out" in the extension, or revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. You can delete the sync folder from your cloud at any time. Removing the extension deletes its local data.</p>
+  </div>
+</main>
+</body>
+</html>
